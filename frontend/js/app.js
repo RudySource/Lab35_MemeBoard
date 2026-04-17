@@ -5,9 +5,11 @@ const inputTitle = document.getElementById('inputTitle')
 const inputCategory = document.getElementById('inputCategory')
 const inputRating = document.getElementById('inputRating')
 const btnAdd = document.getElementById('btnAdd')
+const Count = document.getElementById('memesCount')
 
 function renderMemes(memes) {
 	loadingText.style.display = 'none'
+	Count.textContent = `Всего: ${memes.length}`
 	if (memes.length === 0) {
 		memesGrid.innerHTML =
 			'<p class="empty-text">Мемов пока нет. Добавьте первый!</p>'
