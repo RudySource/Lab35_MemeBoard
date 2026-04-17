@@ -61,7 +61,7 @@ dotnet run
 > [!NOTE]
 > Swagger будет доступен по адресу:
 > `https://localhost:port/swagger`
-> **Точный порт можно посмотреть в** `NotesApp/Properties/launchSettings.json`.
+> **Точный порт можно посмотреть в** `MemesApi/Properties/launchSettings.json`.
 
 ## Обязательная таблица — что изучили:
 
